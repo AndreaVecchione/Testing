@@ -7,7 +7,7 @@ import java.time.format.FormatStyle;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MainTest {
-
+//Andiamo a testare il funzionamento del metodo con lunghezza LONG
     @Test
 
     public void testDateLong() {
@@ -20,6 +20,7 @@ public class MainTest {
 
 
     }
+    //Andiamo a testare il funzionamento del metodo con lunghezza SHORT
 @Test
     public void testDateShort() {
         OffsetDateTime dateTime = OffsetDateTime.parse("2023-03-01T13:00:00Z");
